@@ -1,14 +1,14 @@
 package banco;
 
-public class Funcionario {
+public class Funcionario extends Pessoa{
     private int codFuncionario;
     private String setor;
     private Banco banco;
-
+    
     public int getCodFuncionario() {
         return codFuncionario;
     }
-
+    
     public void setCodFuncionario(int codFuncionario) {
         this.codFuncionario = codFuncionario;
     }

@@ -1,6 +1,6 @@
 package banco;
 
-public class Cliente {
+public class Cliente extends Pessoa{
     private int codCliente;
     private double credito;
     private Banco banco;
