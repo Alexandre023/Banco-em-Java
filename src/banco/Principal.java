@@ -3,6 +3,9 @@ package banco;
 public class Principal {
 
     public static void main(String[] args) {
+        
+        //feito pela bianca
+        
         Banco b = new Banco();
         Cliente c = new Cliente();
         Funcionario f = new Funcionario();
