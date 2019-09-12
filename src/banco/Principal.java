@@ -27,7 +27,35 @@ public class Principal {
         c1.setBanco(b1);
         c1.setCredito(10.5);
         
+        System.out.println("-------------------------");
         
+        System.out.println("Banco: "+b1.getNome());
+        
+        System.out.println("                 ");
+        
+        b1.Cliente();
+        
+        System.out.println("                 ");
+        
+        b1.Funcionario();
+        
+        
+        System.out.println("-------------------------");
+        
+        System.out.println("Banco: "+b1.getNome());
+        System.out.println("Codigo: "+b1.getCodBanco());
+        
+        System.out.println("                 ");
+        
+        System.out.println("Cliente: "+c1.getNome());
+        System.out.println("Cpf: "+c1.getCpf());
+        
+        System.out.println("                 ");
+        
+        System.out.println("Cliente: "+f1.getNome());
+        System.out.println("Cpf: "+f1.getCpf());
+        
+        System.out.println("-------------------------");
     }
     
 }
